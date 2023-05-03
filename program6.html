@@ -1,0 +1,40 @@
+<script type="text/javascript">
+
+    var p = parseInt(prompt("Enter Marks of Physics"));
+    var c = parseInt(prompt("Enter Marks of Chemistry"));
+    var b = parseInt(prompt("Enter Marks of Biology"));
+    var m = parseInt(prompt("Enter Marks of Mathematics"));
+    var co = parseInt(prompt("Enter Marks of Computer"));
+
+    var per = ((p + c + b + m + co)*100)/500;
+
+    console.log("Your percentage is "+per);
+    document.write("Your percentage is "+per);
+    document.write("<br>");
+
+    if(per>=90){
+        console.log("Your Grade is A.");
+        document.write("Your Grade is A.");
+    }
+    else if(per>=80){
+        console.log("Your Grade is B.");
+        document.write("Your Grade is B.");
+    }
+    else if(per>=70){
+        console.log("Your Grade is C.");
+        document.write("Your Grade is C.");
+    }
+    else if(per>=60){
+        console.log("Your Grade is D.");
+        document.write("Your Grade is D.");
+    }
+    else if(per>=50){
+        console.log("Your Grade is E.");
+        document.write("Your Grade is E.");
+    }
+    else{
+        console.log("Your Grade is F.");
+        document.write("Your Grade is F.");
+    }
+
+</script>
